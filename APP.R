@@ -1,0 +1,8 @@
+library(shiny, quietly = TRUE)
+library(readxl, quietly = TRUE)
+require(shinyjs, quietly = TRUE)
+require(tidyverse, quietly = TRUE)
+library(ggvenn, quietly = TRUE)
+options(shiny.legacy.datatable = FALSE) 
+options(shiny.silent.errors = TRUE)
+shinyApp(ui = ui, server = server)
